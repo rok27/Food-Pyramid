@@ -1,0 +1,210 @@
+button{
+    border-radius: 75%;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.showButton button{
+    visibility: visible;
+}
+.hideButton button{
+    visibility: hidden;
+}
+p {
+    position: absolute;
+    border-radius: 75%;
+    background: grey;
+    width: 20px;
+    text-align: center;
+    
+  }
+#L1{
+    
+   border-left: 90px solid transparent;
+   border-right: 90px solid transparent;
+   border-bottom: 125px solid red;
+   width: 0;
+   height: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 15px;
+   
+}
+#counter1{
+    
+    position: absolute;
+    transform: translate(-50%,80%);
+  background-color: green;
+  
+
+}
+#button1Plus{
+position:absolute;
+transform: translate(-150%,350%);
+}
+#button1Minus{
+    position:absolute;
+    transform: translate(60%,350%);
+}
+
+
+#L2{
+    
+    border-bottom: 75px solid orange;
+    border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   height: 0;
+   width: 190px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 15px;
+  
+    
+    
+}
+#counter2{
+    
+    position: absolute;
+    transform: translate(400%,-70%);
+  background-color: rgb(68, 142, 68);
+  
+
+}
+#button2Plus{
+    position:absolute;
+    transform: translate(200%,200%);
+}
+#button2Minus{
+    position:absolute;
+        transform: translate(510%,200%);
+}
+
+
+#L3{
+    position : relative;
+    border-bottom: 75px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  
+}
+#counter3{
+    
+    position: absolute;
+    
+    transform: translate(660%,-70%);
+    
+  background-color: rgb(68, 142, 68);
+  
+
+}
+#button3Plus{
+   position: absolute;
+    transform: translate(400%,200%);
+}
+#button3Minus{
+    
+    transform: translate(780%,200%);
+}
+
+
+#L4{
+    position: relative;
+    border-bottom: 75px solid blue;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+#counter4{
+    
+    position: absolute;
+    
+    transform: translate(900%,-70%);
+    
+  background-color: rgb(68, 142, 68);
+  
+
+}
+#button4Plus{
+    position: absolute;
+     transform: translate(590%,200%);
+ }
+ #button4Minus{
+     
+     transform: translate(1020%,200%);
+ }
+
+#L5{
+    position: relative;
+    border-bottom: 75px solid brown;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 501px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#counter5{
+    
+    position: absolute;
+    
+    transform: translate(1150%,-70%);
+    
+  background-color: rgb(68, 142, 68);
+  
+
+}
+#button5Plus{
+    position: absolute;
+     transform: translate(770%,200%);
+ }
+ #button5Minus{
+     
+     transform: translate(1260%,200%);
+ }
+
+
+#L6{
+    position: relative;
+    border-bottom: 75px solid green;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 600px;
+    margin-right: auto;
+    margin-left:auto;
+
+}
+#counter6{
+    
+    position: absolute;
+   
+    transform: translate(1390%,-70%);
+    
+  background-color: rgb(68, 142, 68);
+  
+
+}
+#button6Plus{
+    position: absolute;
+     transform: translate(960%,200%);
+ }
+ #button6Minus{
+    position: absolute;
+     transform: translate(1500%,200%);
+ }
+
+#date{
+    margin-left: auto;
+    margin-right: auto;
+}
+
